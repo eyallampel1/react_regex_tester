@@ -1,0 +1,64 @@
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+  color: #555;
+  font-weight: bold;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: start;
+  gap: 2rem; /* Adjust the space between checkboxes */
+}
+
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+  white-space: nowrap; /* Prevents the text from wrapping */
+  margin-right: 1rem; /* Adds some space between the label text and the checkbox */
+}
+
+input[type="checkbox"] {
+  margin-left: 0.5rem; /* Adds some space to the left of the checkbox */
+}
+
+
+input[type="text"], textarea {
+  font-size: 2.1rem; /* Increase font size for text inputs and textarea */
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 150px;
+}
+
+h2 {
+  white-space: pre-wrap; /* Respect line breaks and white spaces */
+  word-wrap: break-word;
+  border: 1px solid #eee;
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+
+mark {
+  padding: 0;
+}
